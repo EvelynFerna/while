@@ -1,0 +1,16 @@
+//exemplo de while
+#include <stdio.h>
+int main(){
+    int contador = 0;
+    while(contador < 5)
+    
+    {
+    printf("contador:%d\n", contador);
+    
+    contador += 1;
+    }
+    
+    printf("Acabou!");
+    
+return 0;
+}
